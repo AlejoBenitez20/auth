@@ -1,0 +1,4 @@
+com\mssoftware\auth\AuthApplication.class
+com\mssoftware\auth\rest\AuthController.class
+com\mssoftware\auth\api\AuthApi.class
+com\mssoftware\auth\api\domain\Persona.class
