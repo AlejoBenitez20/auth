@@ -15,7 +15,7 @@ public class AuthController implements AuthApi {
     public ResponseEntity<Persona> getDataAuth() {
         Persona persona = new Persona();
         persona.setNombre("Samelo");
-        persona.setApellido("Rodriguez");
+        persona.setApellido("Rodriguez2");
 
         return new ResponseEntity<>(persona , HttpStatus.OK);
     }
