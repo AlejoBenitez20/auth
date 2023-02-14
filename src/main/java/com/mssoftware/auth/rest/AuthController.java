@@ -12,7 +12,7 @@ public class AuthController implements AuthApi {
     public ResponseEntity<Persona> getDataAuth() {
         Persona persona = new Persona();
         persona.setNombre("Samelo");
-        persona.setApellido("Rodriguez100");
+        persona.setApellido("Rodriguez101");
 
         return new ResponseEntity<>(persona , HttpStatus.OK);
     }
